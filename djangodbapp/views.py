@@ -18,7 +18,7 @@ def index(request):
 
     result = "<h1>Hello from django</h1><br /><br /><b>DB Stuff:</b><br />"
 
-    sqlstr = os.environ.get('SQLCONNSTR_dbconststr', "SQLCONNSTR_dbconststr variable does not exist")
+    sqlstr = os.environ.get('dbconststr', "dbconststr variable does not exist")
 #    sqlstrarr = sqlstr.split(";")
 
 #    sqlstrmap = {}
